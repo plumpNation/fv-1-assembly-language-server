@@ -1,4 +1,13 @@
-# LSP Example
+# FV-1 Assembly Language Server for VSCode
+
+PLEASE NOTE: This is copied from the lsp-sample as a starting point for this project.
+
+It's intended for me to learn from, and is highly unlikely to be useful to you.
+
+It would be super cool though to create visualisers or other code assistance tooling
+to aid in developing assembly for FV-1 chips wouldn't it?
+
+---
 
 Heavily documented sample code for https://code.visualstudio.com/api/language-extensions/language-server-extension-guide
 
