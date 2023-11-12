@@ -1,18 +1,12 @@
 {
-	"name": "lsp-sample",
-	"description": "A language server example",
-	"author": "Microsoft Corporation",
+	"name": "fv-1-assembly-vscode-language-server",
+	"description": "Spin Semiconductor FV-1 Language Server",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Microsoft/vscode-extension-samples"
 	},
-	"publisher": "vscode-samples",
-	"categories": [],
-	"keywords": [
-		"multi-root ready"
-	],
 	"engines": {
 		"vscode": "^1.75.0"
 	},
@@ -23,15 +17,15 @@
 	"contributes": {
 		"configuration": {
 			"type": "object",
-			"title": "Example configuration",
+			"title": "FV-1 Assembly Language Server Configuration",
 			"properties": {
-				"languageServerExample.maxNumberOfProblems": {
+				"fv1AssemblyLanguageServer.maxNumberOfProblems": {
 					"scope": "resource",
 					"type": "number",
 					"default": 100,
 					"description": "Controls the maximum number of problems produced by the server."
 				},
-				"languageServerExample.trace.server": {
+				"fv1AssemblyLanguageServer.trace.server": {
 					"scope": "window",
 					"type": "string",
 					"enum": [
